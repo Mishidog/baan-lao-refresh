@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import Picture from '../components/Picture.astro';
 import { PDF_DINNER, PDF_TEA } from '../data/links.js';
+import { dinner, tea } from '../data/menu-courses.js';
 
 const slides = [
   ['e63a09786a.jpg', 'A plated dish in the dining room'],
@@ -34,11 +35,67 @@ const description = 'Find answers to common questions about dining at Baan Lao, 
       ))}
     </ul>
   </div>
-  <section class="wrap section">
-    <div class="tiles">
+
+  <section class="section menu-board">
+    <div class="menu-cols">
+      <article>
+        <h2 class="menu-title">{dinner.title}</h2>
+        <p class="menu-dek">{dinner.dek}</p>
+        {dinner.courses.map((course) => (
+          <section class="course">
+            <h3>{course.name}</h3>
+            <ul>
+              {course.dishes.map((dish) => (
+                <li>
+                  {dish.name}
+                  {dish.with && <span class="with">{dish.with}</span>}
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+        <section class="course">
+          <h3>BEVERAGE PAIRINGS</h3>
+          <ul class="experience-lines">
+            {dinner.experienceLines.map((line) => <li>{line}</li>)}
+          </ul>
+          <p class="todo-note">[CONFIRM] The dinner menu PDF prints these two lines under BEVERAGE PAIRINGS without calling them pairings, and prints every figure on that page without a currency symbol.</p>
+          <ul class="pair-chips">
+            {dinner.pairings.map((name) => <li>{name}</li>)}
+          </ul>
+        </section>
+      </article>
+
+      <article>
+        <h2 class="menu-title">{tea.title}</h2>
+        {tea.services.map((service) => (
+          <section class="course">
+            <h3>{service.name}</h3>
+            <ul>
+              {service.dishes.map((dish) => (
+                <li>
+                  <span class="th" lang="th">{dish.th}</span>
+                  <span class="en">{dish.en}</span>
+                </li>
+              ))}
+            </ul>
+          </section>
+        ))}
+        <section class="course">
+          {tea.upgrade.map((line) => <p>{line}</p>)}
+          <ul class="pair-chips">
+            {tea.pairings.map((name) => <li>{name}</li>)}
+          </ul>
+        </section>
+      </article>
+    </div>
+
+    <p class="todo-note menu-confirm">[CONFIRM] The wine menu PDF is a photograph of the sommelier and winery marks. It has no extractable course or pairing text, so no wine courses are listed here.</p>
+
+    <nav class="menu-links" aria-label="Menu files">
       <a href={PDF_DINNER}>From Thailand with Love Menu<span class="visually-hidden"> (PDF)</span></a>
       <a href={PDF_TEA}>Afternoon Thai Tea Menu<span class="visually-hidden"> (PDF)</span></a>
       <a href="/wine-menu">Learn More About Our Wines</a>
-    </div>
+    </nav>
   </section>
 </Base>
