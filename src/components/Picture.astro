@@ -1,0 +1,36 @@
+---
+import manifest from '../data/images.json';
+
+const {
+  id,
+  alt,
+  sizes = '100vw',
+  priority = false,
+  fit = 'cover',
+  position = '50% 50%',
+} = Astro.props;
+
+const img = manifest[id];
+if (!img) throw new Error(`Unknown image ${id}`);
+
+const avif = img.variants.map((v) => `${v.avif} ${v.w}w`).join(', ');
+const webp = img.variants.map((v) => `${v.webp} ${v.w}w`).join(', ');
+const jpg = img.variants.map((v) => `${v.jpg} ${v.w}w`).join(', ');
+const fallback = img.variants[img.variants.length - 1].jpg;
+---
+<picture class="pic">
+  <source type="image/avif" srcset={avif} sizes={sizes} />
+  <source type="image/webp" srcset={webp} sizes={sizes} />
+  <img
+    src={fallback}
+    srcset={jpg}
+    sizes={sizes}
+    width={img.w}
+    height={img.h}
+    alt={alt}
+    loading={priority ? 'eager' : 'lazy'}
+    fetchpriority={priority ? 'high' : undefined}
+    decoding={priority ? 'sync' : 'async'}
+    style={`object-fit:${fit};object-position:${position}`}
+  />
+</picture>

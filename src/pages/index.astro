@@ -1,0 +1,88 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+import manifest from '../data/images.json';
+import { OPENTABLE } from '../data/links.js';
+
+const hero = manifest['aeb50aa1c2.jpg'].variants.at(-1).avif;
+const best50 = 'https://www.theworlds50best.com/northamerica/en/the-list/baan-lao.html';
+const dest = 'https://canadas100best.com/award/baan-lao-best-destination-restaurant-2025/';
+---
+<Base
+  title="Baan Lao Website"
+  description="Recognized as Canada's Best Restaurant in 2024 by the World Culinary Awards, Baan Lao combines authentic Royal Thai flavors with modern culinary artistry in an intimate waterfront setting."
+  preload={hero}
+>
+  <section class="hero">
+    <div class="frame">
+      <Picture id="aeb50aa1c2.jpg" alt="Baan Lao dining room with white-clothed tables and an open kitchen" priority sizes="100vw" position="50% 40%" />
+    </div>
+    <div class="scrim"></div>
+    <div class="hero-c">
+      <h1>Exquisite Flavors, Timeless Traditions</h1>
+      <p class="sub">Baan Lao Fine Thai Cuisine | Steveston, Richmond, BC</p>
+      <a class="btn btn-ivory" href={OPENTABLE}>Reserve Your Table</a>
+    </div>
+    <div class="marks">
+      <a href={best50}>No. 1 NORTH AMERICA'S 50 BEST RESTAURANTS / BEST IN WEST CANADA AWARD 2026</a>
+      <span class="rule"></span>
+      <a href={dest}>BEST DESTINATION RESTAURANT AWARD 2026</a>
+    </div>
+  </section>
+
+  <section class="offer">
+    <div class="wrap">
+      <p class="eyebrow">Offering</p>
+      <div class="og">
+        <a class="a" href="/afternoon-thai-tea-experience">
+          <div class="frame r-45">
+            <Picture id="f3aa707814.webp" alt="Tea being poured from a black kettle into a glass pitcher" sizes="(min-width: 768px) 58vw, 100vw" />
+          </div>
+          <h2>The World’s First Sommelier-led Afternoon Thai Tea Experience</h2>
+          <span class="tlink">Afternoon Tea Experience</span>
+        </a>
+        <a class="b" href="/reservations">
+          <div class="frame r-34">
+            <Picture id="4c4d8ec029.webp" alt="A plated dish in a pastry cup set on black rice" sizes="(min-width: 768px) 40vw, 82vw" />
+          </div>
+          <h2>From Thailand with Love, 18 Dish Journey</h2>
+          <span class="tlink">From Thailand With Love</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="gal">
+    <div class="frame g1 r-32">
+      <Picture id="10fc6e3182.jpg" alt="A dish on a gold scalloped plate" sizes="(min-width: 1024px) 44vw, 100vw" />
+    </div>
+    <div class="frame g2 r-45">
+      <Picture id="28906ae334.jpeg" alt="A red flower-shaped dumpling in a woven basket" sizes="(min-width: 1024px) 26vw, 50vw" />
+    </div>
+    <div class="frame g3 r-11">
+      <Picture id="f08d570c2d.jpeg" alt="A garnished bite on black rice" sizes="(min-width: 1024px) 24vw, 50vw" />
+    </div>
+    <div class="frame g4 r-32">
+      <Picture id="a0d701d2a5.jpeg" alt="A long plate with prawn, caviar and edible flowers" sizes="(min-width: 1024px) 34vw, 86vw" />
+    </div>
+  </div>
+
+  <section class="wrap vision">
+    <div class="ph">
+      <div class="frame r-45">
+        <Picture id="4c21c25eda.jpg" alt="The red exterior of Baan Lao" sizes="(min-width: 768px) 50vw, 82vw" />
+      </div>
+    </div>
+    <div class="tx">
+      <p class="lead">Our vision is simple yet profound: to welcome you into our home and serve you as royalty. From the moment you arrive until your departure, you'll experience the warmth, elegance, and extraordinary attention to detail that defines Royal Thai cuisine.</p>
+      <p>Our multi-course tasting menu changes seasonally and features the finest ingredients prepared with traditional Royal Thai techniques. Each plate is a work of art, meticulously created and crafted by one of the world’s most decorated chefs, Proprietor &amp; Executive Chef Nutcha Phanthoupheng, to balance flavour, texture, and presentation.</p>
+      <p>Baan Lao embraces the superior taste of fresh, organic, and natural ingredients, emphasizing the importance of understanding food origins and respecting the environment. Our commitment to sustainability is reflected in every dish we serve.</p>
+    </div>
+  </section>
+
+  <div class="room">
+    <div class="frame r-219">
+      <Picture id="54c0a27e8e.webp" alt="Dining tables beside tall windows and green plants" sizes="100vw" />
+    </div>
+  </div>
+</Base>

@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+
+const people = [
+  {
+    name: 'Kaitlyn Stewart - Beverage Consultant & Cocktail Creator',
+    face: '89c6c4aa8b.png',
+    faceAlt: 'Kaitlyn Stewart holding a red cocktail',
+    mark: '66dce817f2.png',
+    markAlt: 'A coupe glass holding a red cocktail with a lemon peel',
+  },
+  {
+    name: 'Lena Pan - TAC Certified Tea Sommelier',
+    face: 'a34db827d9.png',
+    faceAlt: 'Lena Pan standing outdoors in a black blazer',
+    mark: '13ad41a868.png',
+    markAlt: 'A man in a dark suit holding a glass',
+  },
+  {
+    name: 'Patrick Ellis - Sake Curator',
+    face: '511f881136.jpg',
+    faceAlt: 'Patrick Ellis in a black suit beside a wooden sake box',
+    mark: 'ee5403a881.png',
+    markAlt: 'A woman with dark hair wearing a black blazer, standing outdoors',
+  },
+  {
+    name: 'Emmanuelle Viennois - TAC Certified Tea Sommelier',
+    face: '537d76f528.jpg',
+    faceAlt: 'Emmanuelle Viennois wearing a black top',
+    mark: '15f73c5e1c.png',
+    markAlt: 'A glass teapot and two small cups on a wooden tray',
+  },
+];
+---
+<Base
+  title="Team"
+  description="Recognized as Canada's Best Restaurant in 2024 by the World Culinary Awards, Baan Lao combines authentic Royal Thai flavors with modern culinary artistry in an intimate waterfront setting."
+>
+  <section class="wrap ph-hero">
+    <div class="t">
+      <p class="eyebrow">Team</p>
+      <h1>A world-class team of beverage artisans.</h1>
+    </div>
+    <div class="im">
+      <div class="frame r-45">
+        <Picture id="fdcf96f07c.webp" alt="Glasses of wine and tea on a table" priority sizes="(min-width: 768px) 50vw, 100vw" />
+      </div>
+    </div>
+  </section>
+  <div class="wrap center" style="padding-bottom:80px">
+    <p class="lead" style="max-width:65ch;margin:0 auto">We offer carefully curated wine pairings, cocktail pairings, sake pairings, Baan Lao Experience pairings, mocktail pairings and Gong Fu Cha caffeine tea pairings and caffeine-free tea pairings to enjoy your meal at an additional cost.</p>
+  </div>
+  <section class="wrap" style="padding-bottom:140px">
+    <div class="grid4">
+      {people.map((person) => (
+        <article class="team-card">
+          <div class="frame r-45">
+            <Picture id={person.face} alt={person.faceAlt} sizes="(min-width: 1024px) 25vw, (min-width: 768px) 50vw, 100vw" />
+          </div>
+          <h2>{person.name}</h2>
+          <div class="thumb frame">
+            <Picture id={person.mark} alt={person.markAlt} sizes="64px" />
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</Base>

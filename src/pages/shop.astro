@@ -1,0 +1,61 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+import { TEL } from '../data/links.js';
+---
+<Base
+  title="Shop"
+  description="Recognized as Canada's Best Restaurant in 2024 by the World Culinary Awards, Baan Lao combines authentic Royal Thai flavors with modern culinary artistry in an intimate waterfront setting."
+>
+  <section class="bleed">
+    <div class="frame">
+      <Picture id="02acac13a9.jpg" alt="Rice grains spread across a wooden surface" priority sizes="100vw" />
+    </div>
+    <div class="scrim"></div>
+    <div class="t">
+      <p class="eyebrow">Shop</p>
+      <h1 class="shop-quote">"If people knew all the steps involved in rice farming and processing of rice to its finished product, no one would waste a single grain of rice."</h1>
+    </div>
+  </section>
+
+  <section class="wrap split even section">
+    <div class="copy prose">
+      <p>Chef Nutcha abides by her principles by using only the rice she knows is the safest and healthiest for her patrons—the rice she knows and grows! We are pleased to offer you our organic rice for your home cooking and entertaining. Contact us today for home delivery or purchase at restaurant. (<a href="mailto:info@baanlao.ca">info@baanlao.ca</a> or call <a href={TEL}>778.839.5711</a>)</p>
+    </div>
+    <div class="im">
+      <div class="grid2 gap-tight">
+        <div class="frame r-11" style="background:var(--c-sand)">
+          <Picture id="95b24099eb.png" alt="A bag of Baan Lao organic rice" fit="contain" sizes="(min-width: 768px) 25vw, 50vw" />
+        </div>
+        <div class="frame r-11" style="background:var(--c-sand)">
+          <Picture id="8b2ef1356d.png" alt="A second bag of Baan Lao organic rice" fit="contain" sizes="(min-width: 768px) 25vw, 50vw" />
+        </div>
+      </div>
+      <div class="frame r-32" style="margin-top:12px">
+        <Picture id="3feae697c3.jpg" alt="Cooked rice in a bowl" sizes="(min-width: 768px) 50vw, 100vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-bottom:140px">
+    <div class="grid2">
+      <article class="product">
+        <div class="frame r-11">
+          <Picture id="3815f356fa.png" alt="A teak wood Baan Lao gift card" fit="contain" sizes="(min-width: 768px) 40vw, 100vw" />
+        </div>
+        <div class="frame r-11" style="margin-top:12px">
+          <Picture id="710e7a926f.png" alt="The reverse of a teak wood Baan Lao gift card" fit="contain" sizes="(min-width: 768px) 40vw, 100vw" />
+        </div>
+        <h2>Baan Lao Gift Card</h2>
+        <p>Our elegant teak wood gift cards* are the perfect gift for every occasion! Birthdays, anniversaries, holidays and housewarming, Baan Lao is the gift that’s sure to please.</p>
+      </article>
+      <article class="product">
+        <div class="frame r-11">
+          <Picture id="c3785d3d7a.png" alt="An organic jute tote bag" fit="contain" sizes="(min-width: 768px) 40vw, 100vw" />
+        </div>
+        <h2>Organic Jute Tote</h2>
+        <p>Baan Lao’s jute tote bags are organic and eco-friendly.Perfect for carrying your Baan Lao To Go order, they’re also ideal for shopping at the farmers’ market.</p>
+      </article>
+    </div>
+  </section>
+</Base>

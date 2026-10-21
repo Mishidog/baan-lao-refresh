@@ -1,0 +1,215 @@
+---
+import '../styles/global.css';
+import Lotus from '../components/Lotus.astro';
+import {
+  OPENTABLE,
+  MAPS,
+  FACEBOOK,
+  INSTAGRAM,
+  MAILCHIMP,
+  TEL,
+  primaryNav,
+  menuNav,
+  exploreNav,
+} from '../data/links.js';
+
+const { title, description, preload } = Astro.props;
+const current = Astro.url.pathname.replace(/\/$/, '') || '/';
+const isCurrent = (href) => (href === '/' ? current === '/' : current === href);
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Cormorant+SC:wght@400;500&family=Inter:wght@400;500&display=swap" rel="stylesheet" />
+    {preload && <link rel="preload" as="image" href={preload} type="image/avif" fetchpriority="high" />}
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="hdr">
+      <div class="in">
+        <button class="burger" type="button" aria-expanded="false" aria-controls="menu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+        <a class="logo" href="/">
+          <img src="/media/68d47b662b/68d47b662b-768.jpg" width="768" height="271" alt="Baan Lao Fine Thai Cuisine" />
+        </a>
+        <nav aria-label="Primary">
+          {primaryNav.map((item) => (
+            <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a>
+          ))}
+        </nav>
+        <a class="btn reserve" href={OPENTABLE}>Reserve Your Table</a>
+      </div>
+    </header>
+    <div id="menu" class="menu" hidden>
+      <nav aria-label="Pages">
+        {menuNav.map((item) => (
+          <a href={item.href} aria-current={isCurrent(item.href) ? 'page' : undefined}>{item.label}</a>
+        ))}
+      </nav>
+      <a class="btn btn-gold" href={OPENTABLE}>Reserve Your Table</a>
+      <p class="menu-contact"><a href={TEL}>778 839 5711</a></p>
+      <div class="soc">
+        <a href={FACEBOOK} aria-label="Facebook">Facebook</a>
+        <a href={INSTAGRAM} aria-label="Instagram">Instagram</a>
+      </div>
+    </div>
+    <main id="main" tabindex="-1">
+      <slot />
+    </main>
+    <footer class="finale">
+      <div class="invite">
+        <Lotus width={200} />
+        <h2>Reserve Your Table</h2>
+        <p>Dinner Service 5 pm + 6:30 pm · Wednesday Through Sunday</p>
+        <a class="btn btn-gold" href={OPENTABLE}>Reserve Your Table</a>
+      </div>
+      <div class="wrap fgrid">
+        <div>
+          <p class="brand">BAAN LAO FINE THAI CUISINE</p>
+          <a class="addr" href={MAPS}>● <strong>4100 Bayview Street, Richmond, BC</strong></a>
+          <p class="contact">Contact:<br /><a href="mailto:info@baanlao.ca">info@baanlao.ca</a><br /><a href={TEL}>778 839 5711</a></p>
+          <div class="soc">
+            <a href={FACEBOOK} aria-label="Facebook">Facebook</a>
+            <a href={INSTAGRAM} aria-label="Instagram">Instagram</a>
+          </div>
+        </div>
+        <div>
+          <h3 class="flabel">Hours</h3>
+          <p>Closed Monday +Tuesday<br />Dinner Service 5 pm + 6:30 pm<br />Wednesday Through Sunday</p>
+          <p class="hours-tea">Thai Tea Service<br />Saturday + Sunday<br />12:30 pm</p>
+        </div>
+        <div>
+          <h3 class="flabel">Explore</h3>
+          <ul>
+            {exploreNav.map((item) => (
+              <li><a href={item.href}>{item.label}</a></li>
+            ))}
+          </ul>
+        </div>
+        <div class="sub">
+          <h3 class="flabel">Subscribe</h3>
+          <p>Sign up to receive insider information and the lastest news from Baan Lao!</p>
+          <form action={MAILCHIMP} method="post" target="_blank">
+            <p class="req"><span aria-hidden="true">*</span> indicates required</p>
+            <label for="mce-EMAIL">Email Address <span aria-hidden="true">*</span></label>
+            <input id="mce-EMAIL" type="email" name="EMAIL" required autocomplete="email" />
+            <div aria-hidden="true" class="hp">
+              <input type="text" name="b_9d476870a8b016f5a0e2593e3_ef5af47d65" tabindex="-1" value="" />
+            </div>
+            <button class="btn btn-gold" type="submit" name="subscribe" value="Subscribe">Subscribe</button>
+          </form>
+        </div>
+      </div>
+      <p class="legal">© 2025 All rights reserved. Baan Lao Fine Thai Cuisine</p>
+      <p class="legal cookie-settings"><button type="button" id="cookie-settings">Cookie Settings</button></p>
+    </footer>
+    <div id="cookie" class="cookie" hidden>
+      <p>We use cookies to personalize content, run ads, and analyze traffic.</p>
+      <button type="button" class="btn btn-gold" id="cookie-ok">Okay</button>
+    </div>
+    <script>
+      const btn = document.querySelector('.burger');
+      const menu = document.getElementById('menu');
+      const root = document.documentElement;
+
+      const trapItems = () => [btn, ...menu.querySelectorAll('a, button')];
+
+      function openMenu() {
+        menu.hidden = false;
+        btn.setAttribute('aria-expanded', 'true');
+        btn.setAttribute('aria-label', 'Close menu');
+        root.classList.add('nav-open');
+        trapItems()[1]?.focus();
+      }
+
+      function closeMenu() {
+        menu.hidden = true;
+        btn.setAttribute('aria-expanded', 'false');
+        btn.setAttribute('aria-label', 'Open menu');
+        root.classList.remove('nav-open');
+        btn.focus();
+      }
+
+      btn.addEventListener('click', () => (menu.hidden ? openMenu() : closeMenu()));
+
+      document.addEventListener('keydown', (event) => {
+        if (menu.hidden) return;
+        if (event.key === 'Escape') {
+          event.preventDefault();
+          closeMenu();
+          return;
+        }
+        if (event.key !== 'Tab') return;
+        const items = trapItems();
+        const first = items[0];
+        const last = items[items.length - 1];
+        if (event.shiftKey && document.activeElement === first) {
+          event.preventDefault();
+          last.focus();
+        } else if (!event.shiftKey && document.activeElement === last) {
+          event.preventDefault();
+          first.focus();
+        }
+      });
+
+      menu.addEventListener('click', (event) => {
+        const link = event.target.closest('a');
+        if (link && link.getAttribute('href')?.startsWith('/')) closeMenu();
+      });
+
+      const cookie = document.getElementById('cookie');
+      const cookieOk = document.getElementById('cookie-ok');
+      const cookieSettings = document.getElementById('cookie-settings');
+
+      function heroCtaClear() {
+        const cta = document.querySelector('.hero .btn');
+        if (!cta) return window.scrollY > 48;
+        return cta.getBoundingClientRect().bottom < window.innerHeight - 120;
+      }
+
+      function maybeCookie() {
+        if (sessionStorage.getItem('bl-cookie') === '1') return;
+        if (!heroCtaClear()) return;
+        cookie.hidden = false;
+      }
+
+      window.addEventListener('scroll', maybeCookie, { passive: true });
+
+      cookieOk.addEventListener('click', () => {
+        sessionStorage.setItem('bl-cookie', '1');
+        cookie.hidden = true;
+      });
+
+      cookieSettings.addEventListener('click', () => {
+        sessionStorage.removeItem('bl-cookie');
+        cookie.hidden = false;
+        cookieOk.focus();
+      });
+
+      const carousel = document.querySelector('[data-carousel]');
+      if (carousel) {
+        const track = carousel.querySelector('.track');
+        const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        const step = () => {
+          const item = track.querySelector('li');
+          if (!item) return 320;
+          const styles = getComputedStyle(track);
+          return item.getBoundingClientRect().width + parseFloat(styles.columnGap || styles.gap || '16');
+        };
+        carousel.querySelector('[data-prev]').addEventListener('click', () => {
+          track.scrollBy({ left: -step(), behavior: reduced ? 'auto' : 'smooth' });
+        });
+        carousel.querySelector('[data-next]').addEventListener('click', () => {
+          track.scrollBy({ left: step(), behavior: reduced ? 'auto' : 'smooth' });
+        });
+      }
+    </script>
+  </body>
+</html>

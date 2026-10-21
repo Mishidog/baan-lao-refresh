@@ -1,0 +1,17 @@
+{
+  "name": "baan-lao",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "images": "node scripts/optimize-images.mjs",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^5.14.4"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.4"
+  }
+}
