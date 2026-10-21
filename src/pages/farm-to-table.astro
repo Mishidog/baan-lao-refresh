@@ -1,0 +1,177 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+const desc = "Experience Baan Lao's commitment to sustainability with ethically sourced ingredients from local farms and Chef Nutcha's organic rice farm in Thailand. Enjoy dishes crafted with care, ensuring freshness and quality from farm to table.\u200b";
+
+const partners = [
+  ['Sumas Mountain Farms,', 'Abbotsford, BC', 'https://www.sumasmountainfarms.ca/'],
+  ['Your Wildest Foods,', 'Abbotsford, BC', 'https://www.yourwildestfoods.com/'],
+  ['Glorious Organics,', 'Aldergrove, BC', 'https://gloriousorganics.com/'],
+  ['Vancouver Island Salt Co,', 'Black Creek,  BC', 'https://canadianseasalt.com/'],
+  ['Yarrow Meadow,', 'Chilliwack, BC', 'https://www.fvsp.ca/products/yarrow-meadow/'],
+  ['McClintock’s Farm,', 'Courtenay, BC', 'https://www.mcclintocksfarm.ca/'],
+  ['Cropthorne Farm,', 'Delta, BC', 'https://cropthornefarm.wordpress.com/'],
+  ['Emma Lee Farms ,', 'Delta, BC', 'https://emmaleafarms.com/'],
+  ['Schoolhouse Farm,', 'Delta, BC', 'https://www.schoolhousefarm.ca/'],
+  ['Snow Farms,', 'Delta, BC', 'https://snowfarms.ca/'],
+  ['Westham Island Herb Farm,', 'Delta, BC', 'https://westhamislandherb.ca/'],
+  ['Windset Farms,', 'Delta, BC', 'https://windsetfarms.com/'],
+  ['Academy Farms,', 'Langley, BC', 'https://academyfarms.org/'],
+  ['Athiana Acres,', 'Richmond, BC', 'https://www.athianaacres.com/'],
+  ['Cherry Lane Farms,', 'Richmond, BC', 'https://www.facebook.com/groups/222960844416843'],
+  ['Organic Ocean Seafood,', 'Richmond, BC', 'https://organicocean.com/'],
+  ['Rabbit River Farms,', 'Richmond, BC', 'https://rabbitriverfarms.com/'],
+  ['Richmond Country Farms,', 'Richmond, BC', 'https://www.countryfarms.ca/'],
+  ['Sky Harvest,', 'Richmond, BC', 'https://www.skyharvest.ca/'],
+  ['Barnston Island Herbs,', 'Surrey, BC', 'https://biherbs.ca/'],
+  ['Acadian Sturgeon & Caviar,', 'St John, NB,', 'https://www.acadian-sturgeon.com/'],
+  ['Omega Nutrition,', 'Bellingham, WA', 'https://omeganutrition.com/'],
+];
+---
+<Base title="Farm to Table" description={desc}>
+  <section class="wrap ph-hero">
+    <div class="t">
+      <p class="eyebrow">Farm to Table</p>
+      <h1>Ingredients directly from farmers, growers, and fishers, ensuring traceability from sea and farm to table.</h1>
+    </div>
+    <div class="im">
+      <div class="frame r-45">
+        <Picture id="9ecc82931a.webp" alt="Chef Nutcha standing in a rice field" priority sizes="(min-width: 768px) 50vw, 100vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap split">
+    <div class="copy prose">
+      <p>Our commitment at Baan Lao extends to environmental protection and sustainability.</p>
+      <p>We choose to source our ingredients directly from farmers, growers, and fishers, allowing us to trace each item from the sea and farm to your table and ensure the integrity of our food.</p>
+      <h2 class="as-h3">At the very heart of Baan Lao, is Chef Nutcha's Organic Rice Farm:</h2>
+      <p>Tilled by water buffalo, free of pesticides and naturally cultivated, the 15-acre farm in Khon Kaen, Thailand has been in her family for 80 years.</p>
+      <details class="acc">
+        <summary class="as-link">Learn More</summary>
+        <div class="acc-body">
+          <p>Chef Nutcha’s 15 acre regenerative and organic rice farm is located in Nhong Waeng, northeastern Thailand, known as the Isaan. The rice farm has been in Nutcha’s family for over eighty years. Her grandfather purchased the land and passed it down to her mother who, in turn, gave the farm to her daughter in 2019. To this day, Nutcha’s parents still plant the rice, and harvest and package the rice with the help of relatives and friends in the community. Nutcha’s parents demonstrate their enduring love to their daughter knowing that through their labours they are helping her prepare the finest food for her guests at Baan Lao. With each dish she prepares, Chef Nutcha aspires to pass on to her guests the specialness of the history of her family farm and to transport that sentiment from Thailand to the shores of Steveston. “When people eat our rice, we want them to know that my parents are still farming to help serve our guests. It is so touching and meaningful to us.”</p>
+          <p>In-season paddy field rice farming in Thailand begins in May until October followed by a harvest period ending in February. This type of farming produces rice only once a year and takes about 120 days to grow. Once the crop is mature, it is harvested; rice before threshing is called “paddy.” Next, the rice is milled involving several steps. Rice is dried to ensure it has no more than 12 – 14 % moisture content in order to prevent molding. Through agitation, the husk and bran are removed. The husks can be used for fuel energy or restoring the soil. The bran is used to make oil or animal feed. The rice is further sorted by colour before packaging.</p>
+          <p>Chef Nutcha’s Farm is the ideal microcosm of organic farming and sustainable agriculture. Only water buffalo have tilled and naturally fertilized the soil. No mechanization or chemical fertilizers or pesticides have permeated with their negative carbon footprint. The seedlings are planted by hand and once the crop is mature, it is harvested and milled by hand. The rice is not fumigated in preparation for storage or export. The result: fresh, pure rice! Chef Nutcha says that people are as healthy as the food they ingest. Chef Nutcha abides by her principles by using only the rice she knows is the safest and healthiest for her patrons—the rice she knows and grows!</p>
+          <p>Depending on the dishes Chef Nutcha prepares, she uses different varieties of rice. Hom Mali Jasmine Rice is the world’s best rice, known for its superior flavour, fragrance and fibre content.</p>
+          <p>Riceberry, deep purple in colour, with an earthy, nutty taste, is plenteous in nutritional benefits. It boasts of high Vitamin E and B1, iron, omega 3 fatty acids, and antioxidants.</p>
+          <p>Glutinous rice, also known as “sticky rice” is opaque, and very low in amylose starch, high in amylose pectin.</p>
+          <p>Chef Nutcha frequently proclaims, “If people knew all the steps involved in rice farming and processing of rice to its finished product, no one would waste a single grain of rice.”</p>
+        </div>
+      </details>
+    </div>
+    <div class="im">
+      <div class="frame r-45">
+        <Picture id="0dc4e41382.webp" alt="Green rice plants in a flooded field" sizes="(min-width: 768px) 42vw, 82vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="wide" style="padding-bottom:80px">
+    <div class="grid3 gap-tight">
+      <div class="frame r-32"><Picture id="73287ef05c.jpg" alt="A farm landscape" sizes="(min-width: 1024px) 33vw, 100vw" /></div>
+      <div class="frame r-32"><Picture id="673038904b.jpg" alt="Harvested produce" sizes="(min-width: 1024px) 33vw, 100vw" /></div>
+      <div class="frame r-23"><Picture id="673e37c149.webp" alt="A portrait of a farm field" sizes="(min-width: 1024px) 33vw, 100vw" /></div>
+    </div>
+  </section>
+
+  <section class="sand" style="padding:96px 0">
+    <div class="wrap">
+      <h2 style="margin-bottom:36px">Our Farm Partnerships</h2>
+      <ul class="partners">
+        {partners.slice(0, 19).map(([name, town, href]) => (
+          <li><a href={href}><strong>{name}</strong> {town}</a></li>
+        ))}
+        <li><span class="plain"><strong>Captain Daryl Falk, Pacific Searcher Fishing,</strong> Steveston Harbour</span></li>
+        {partners.slice(19).map(([name, town, href]) => (
+          <li><a href={href}><strong>{name}</strong> {town}</a></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="grid3">
+      <article>
+        <div class="frame r-11"><Picture id="64709fd2bb.jpg" alt="Cattle in a pasture" sizes="(min-width: 768px) 33vw, 100vw" /></div>
+        <details class="acc">
+          <summary>The Baan Lao and Sumas Mountain Farm Partnership</summary>
+          <div class="acc-body">
+            <p><strong>Sourcing Local:</strong></p>
+            <p>At Baan Lao, we are committed to providing our guests with the highest quality ingredients, which is why we proudly partner with Sumas Mountain Farm. This collaboration aligns with our values of sustainability, health, and excellence in culinary experiences. We proudly source all Canadian produce within a 30km radius.</p>
+            <p><strong>Why Sumas Mountain Farm?</strong></p>
+            <p>Sumas Mountain Farm, located in Abbotsford, is the only certified-organic and SPCA-certified beef farm in BC. They produce 100% grass-fed and finished beef, along with free-range pastured eggs. Their commitment to organic farming ensures that all their pastures and animals are free from chemicals, pesticides, hormones, toxins, and contaminants. They also farm ducks, pigs, and chickens. We incorporate these proteins into our menu, further enhancing our offerings. Sumas Mountain Farms is the only farm in Canada to be certified organic in both the US and Canada, SPCA certified, and to have its own federally regulated abattoir.</p>
+            <p><strong>Certified Organic and Humane</strong></p>
+            <p>Our partnership with Sumas Mountain Farm guarantees that the beef served at Baan Lao is not only delicious but also ethically and sustainably sourced. Sumas Mountain Farm’s animals graze on 100% certified-organic pastures and are never fed grain. During warmer months, the cows enjoy certified-organic pasture, and in colder months, they are fed certified-organic hay. This approach ensures that the cows live healthy, happy lives, just as nature intended.</p>
+            <p><strong>Quality Over Quantity</strong></p>
+            <p>Sumas Mountain Farm’s cows take up to two years longer to reach maturity compared to grain-fed animals. This extended growth period results in beef that is more flavorful and healthier, making it a perfect choice for the exquisite dishes crafted by Chef Nutcha. Although this process makes 100% grass-fed beef more expensive, the superior quality and taste are well worth the investment.</p>
+            <p><strong>Better for the Planet</strong></p>
+            <p>Sumas Mountain Farm’s dedication to organic farming practices means their pastures never receive chemical fertilizers. This results in healthier soil, rich in beneficial microbes, which in turn produces nutrient-rich grass for the cows. Healthier cows mean no need for antibiotics, contributing to a more sustainable and environmentally friendly farming practice.</p>
+            <p><strong>A Shared Commitment to Excellence</strong></p>
+            <p>At Baan Lao, we value the meticulous attention to detail and the high standards upheld by Sumas Mountain Farm. Their holistic approach to farm management ensures that everything they produce meets the highest quality standards, mirroring our dedication to excellence in the culinary experiences we offer our guests.</p>
+            <p><strong>Understanding Cortisol and Abattoir Practices</strong></p>
+            <p>When animals are transported in a cage or container, they experience stress, leading to the production of cortisol. This stress hormone can make the meat toxic and unhealthy to consume. Many people are unaware of the impact cortisol has on meat quality.</p>
+            <p>Trevor, the owner and farmer at Sumas Mountain Farm, shares his vision: animals should eat natural grass, get natural vitamin E from sunshine, drink natural rainwater instead of chlorinated city water, and live without antibiotics. By avoiding stress and cortisol production before slaughter, the meat remains fresh, clean, and healthy.</p>
+            <p>Sumas Mountain Farm stands out by having a federally regulated abattoir on-site, eliminating the need to transport animals, which can cause stress. The cattle are led calmly into the barn and are slaughtered quickly, ensuring minimal stress and superior meat quality.</p>
+            <p>To be USDA Organic certified, Canada Organic certified, SPCA certified, and to have an on-premise slaughterhouse, Trevor believes that his beef is the best and healthiest tasting in Canada. There is no other farm in Canada with all four certifications.</p>
+            <p>By choosing Sumas Mountain Farm, we ensure that the food served at Baan Lao is not only delicious and nutritious but also responsibly sourced, supporting our mission to provide the best dining experience while caring for the environment and animal welfare.</p>
+          </div>
+        </details>
+      </article>
+      <article>
+        <div class="frame r-11"><Picture id="7ffeb27c7d.jpg" alt="Rows of vegetables in a field" sizes="(min-width: 768px) 33vw, 100vw" /></div>
+        <details class="acc">
+          <summary>The Baan Lao and Athiana Acres Partnership</summary>
+          <div class="acc-body">
+            <p><strong>Sourcing Local:</strong></p>
+            <p>We take pride in providing our guests with the freshest and highest quality ingredients, sourced locally to ensure sustainability and excellence in every dish. Our collaboration with Athiana Acres, located just four blocks from our restaurant, is a testament to our commitment to these values.</p>
+            <p><strong>Why Athiana Acres?</strong></p>
+            <p>Athiana Acres, an incredible farm operated by the Panatch family, has a rich agricultural heritage that spans over 100 years. Originating from their ancestral village in Punjab, India, the farm has evolved from cultivating wheat and cotton to growing blueberries, strawberries, and now a diverse range of produce and flowers. Our local produce, including lettuce, radishes, dill, and more, comes from this exceptional farm.</p>
+            <p><strong>Our Roots</strong></p>
+            <p>The name Athiana Acres is derived from the Panatch family’s ancestral village, Aittiana (ਐਤੀਆਣਾ), in Northern India. This adaptation ensures accurate pronunciation in English while honoring their heritage. Agriculture has been an integral part of the family’s history, and Athiana Acres represents the culmination of their journey and the continuation of their legacy.</p>
+            <p><strong>Our Mission</strong></p>
+            <p>Athiana Acres is dedicated to cultivating and sharing the radiance of the land through the regenerative power of nature. They grow a variety of vibrant vegetables, fruits, herbs, and cut flowers, making engaging with your food system a meaningful and beautiful experience. Whether picking up a box of vegetables, enjoying a farm-to-table dinner, or participating in an educational workshop, each interaction connects you with the land, leaving you feeling radiant and alive.</p>
+            <p><strong>Our Regenerative Practices</strong></p>
+            <p><strong>Cover Cropping</strong></p>
+            <p>Athiana Acres uses cover cropping to improve soil health by remediating, feeding, and protecting the soil. This technique includes planting grasses, cereals, legumes, and other crops not intended for harvest, which adds organic matter to the soil, feeding biological activity and reducing soil compaction.</p>
+            <p><strong>Minimizing Disturbances</strong></p>
+            <p>The farm limits interference with natural soil systems by minimizing tillage and avoiding harmful chemicals and petroleum-based products. This approach supports a self-sustaining ecosystem, mirroring natural processes.</p>
+            <p><strong>Promoting Diversity</strong></p>
+            <p>By growing a diverse range of fruits, vegetables, herbs, and flowers, Athiana Acres attracts a variety of beneficial insects, birds, and wildlife. This biodiversity is crucial for regenerating the land and maintaining ecological balance.</p>
+            <p><strong>Crop Rotations</strong></p>
+            <p>The farm practices crop rotation, planting different crops in succession to enhance soil resilience. Diverse root systems help move nutrients through the soil, while the unique properties of various crops, such as nitrogen fixation and pest tolerance, contribute to healthier soils and reduce the need for artificial inputs.</p>
+            <p><strong>A Shared Commitment to Excellence</strong></p>
+            <p>At Baan Lao, we value the meticulous attention to detail and the high standards upheld by Athiana Acres. Their holistic and regenerative farming practices ensure that everything they produce meets the highest quality standards, mirroring our dedication to excellence in the culinary experiences we offer our guests.</p>
+            <p>By partnering with Athiana Acres, we ensure that the produce served at Baan Lao is not only fresh and nutritious but also responsibly sourced. This supports our mission to provide the best dining experience while caring for the environment and community.</p>
+          </div>
+        </details>
+      </article>
+      <article>
+        <div class="frame r-11"><Picture id="bfbaa7f65e.jpg" alt="Water buffalo in a pasture" sizes="(min-width: 768px) 33vw, 100vw" /></div>
+        <details class="acc">
+          <summary>The Baan Lao and John Volken Academy Farms Partnership</summary>
+          <div class="acc-body">
+            <p><strong>Sourcing Local:</strong></p>
+            <p>At Baan Lao, we are committed to providing our guests with the finest ingredients, which is why we proudly partner with Academy Farms. This collaboration aligns with our values of sustainability, health, and excellence in culinary experiences.</p>
+            <p><strong>Why Academy Farms?</strong></p>
+            <p>Academy Farms, located in south Langley’s Agricultural Land Reserve, is renowned for its humane and ethical farming practices. The farm is home to over 350 water buffalo and 100 bison, producing top-quality meat, cheese, and milk. Academy Farms is certified organic, grass-fed and finished, and Halal, ensuring that their products meet the highest standards of quality and ethics. Proceeds from their Farm Market support the John Volken Academy, a residential treatment center focused on addiction recovery and life skills training.</p>
+            <p><strong>About John Volken Academy</strong></p>
+            <p>The John Volken Academy provides long-term residential treatment for young adults aged 19 to 34 struggling with drug and alcohol addiction. With campuses in the US and Canada, the program emphasizes comprehensive personal development, career preparation, education, and healthy living. Participants not only overcome substance abuse but also gain essential life skills for permanent recovery. The academy’s approach integrates extensive personal growth and practical experience, empowering individuals to build fulfilling, substance-free lives.</p>
+            <p><strong>Quality and Sustainability</strong></p>
+            <p>Our partnership ensures that the meat served at Baan Lao is both delicious and responsibly sourced. Academy Farms’ commitment to organic and sustainable farming means their animals graze on chemical-free pastures, contributing to healthier and more flavourful meat.</p>
+            <p><strong>Benefits of Water Buffalo</strong></p>
+            <p>Water buffalo meat is lower in fat and cholesterol compared to traditional beef, making it a healthier option. The milk from water buffalo is richer in calcium and protein, ideal for producing high-quality cheeses and dairy products. Incorporating water buffalo into our menu allows us to offer unique and flavourful dishes that are also beneficial for our guests’ health.</p>
+            <p><strong>A Shared Commitment to Excellence</strong></p>
+            <p>At Baan Lao, we value the meticulous attention to detail and the high standards upheld by Academy Farms. Their holistic approach to farm management ensures that everything they produce meets the highest quality standards, mirroring our dedication to excellence in the culinary experiences we offer our guests.</p>
+            <p><strong>Supporting the Community</strong></p>
+            <p>By choosing Academy Farms, we ensure that the food served at Baan Lao is not only delicious and nutritious but also supports our mission to provide the best dining experience while caring for the environment and community. Join us at Baan Lao and experience the exceptional quality of ingredients sourced from our trusted partner, Academy Farms.</p>
+          </div>
+        </details>
+      </article>
+    </div>
+    <div class="grid2" style="margin-top:32px">
+      <div class="frame r-32"><Picture id="fb77759408.jpg" alt="A partner farm field" sizes="(min-width: 768px) 50vw, 100vw" /></div>
+      <div class="frame r-32"><Picture id="350a2d2a85.jpg" alt="Produce harvested for the kitchen" sizes="(min-width: 768px) 50vw, 100vw" /></div>
+    </div>
+  </section>
+</Base>

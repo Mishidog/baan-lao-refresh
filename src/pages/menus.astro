@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+import { PDF_DINNER, PDF_TEA } from '../data/links.js';
+
+const slides = [
+  ['e63a09786a.jpg', 'A plated dish in the dining room'],
+  ['acd85385bd.jpg', 'A close view of a finished plate'],
+  ['a2b2b0cca0.jpg', 'A dish arranged on a ceramic plate'],
+  ['fa67d69c5d.jpg', 'A plated course with garnish'],
+  ['84f3623737.jpg', 'A dish set on the table'],
+  ['09d2d1d3ba.jpg', 'A wide plate of food'],
+];
+const description = 'Find answers to common questions about dining at Baan Lao, including dress code, dietary accommodations, corkage fees, and reservation policies. Ensure a seamless and enjoyable experience at our Royal Thai cuisine restaurant in Steveston, BC.\u200b';
+---
+<Base title="FAQ" description={description}>
+  <h1 class="visually-hidden">Menus</h1>
+  <div class="carousel" data-carousel style="padding-top:32px">
+    <div class="navs">
+      <button type="button" data-prev aria-label="Previous image">
+        <svg width="22" height="22" viewBox="0 0 40 40" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22.5 12.5 15 20l7.5 7.5"/></svg>
+      </button>
+      <button type="button" data-next aria-label="Next image">
+        <svg width="22" height="22" viewBox="0 0 40 40" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.5 12.5 25 20l-7.5 7.5"/></svg>
+      </button>
+    </div>
+    <ul class="track" tabindex="0" aria-label="Menu photographs">
+      {slides.map(([id, alt], i) => (
+        <li>
+          <div class="frame r-32">
+            <Picture id={id} alt={alt} priority={i === 0} sizes="(min-width: 768px) 40vw, 90vw" />
+          </div>
+        </li>
+      ))}
+    </ul>
+  </div>
+  <section class="wrap section">
+    <div class="tiles">
+      <a href={PDF_DINNER}>From Thailand with Love Menu<span class="visually-hidden"> (PDF)</span></a>
+      <a href={PDF_TEA}>Afternoon Thai Tea Menu<span class="visually-hidden"> (PDF)</span></a>
+      <a href="/wine-menu">Learn More About Our Wines</a>
+    </div>
+  </section>
+</Base>

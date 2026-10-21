@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+import { PDF_WINE } from '../data/links.js';
+
+const row = [
+  ['92fae4d777.png', 'Phantom Creek Estates logo', true],
+  ['8a692fa40a.jpg', 'A woman in a black hat standing in a vineyard', false],
+  ['5e323f23b8.png', 'Summerhill Pyramid Winery logo', true],
+  ['b88a2a0505.png', 'Little Engine Winery logo', true],
+  ['b6f93f6abb.jpg', 'Two people seated at a table with wine glasses', false],
+  ['265ed0cc7b.png', 'Okanagan Crush Pad Winery logo', true],
+  ['b5a7167ee8.png', 'Road 13 Vineyards logo', true],
+];
+---
+<Base
+  title="Wine"
+  description="Explore Baan Lao's curated wine selection, featuring organic and biodynamic wines from local estates like Summerhill, Little Engine, and Phantom Creek. Each bottle is chosen to complement Chef Nutcha's Royal Thai cuisine, enhancing your dining experience."
+>
+  <section class="bleed">
+    <div class="frame">
+      <Picture id="58c78333d1.webp" alt="Wine barrels stacked in a cellar" priority sizes="100vw" />
+    </div>
+    <div class="scrim"></div>
+    <div class="t">
+      <p class="eyebrow">Wine</p>
+      <h1 class="wine-h1">ALL OUR WINES HAVE BEEN CAREFULLY CURATED BY OUR MASTER SOMMELIER, PIER-ALEXIS SOULIÈRE.</h1>
+    </div>
+  </section>
+
+  <section class="wrap split wine-split section">
+    <div class="im">
+      <div class="frame r-45">
+        <Picture id="95e5665f07.jpeg" alt="A man in a grey suit standing in a vineyard" sizes="(min-width: 768px) 40vw, 82vw" />
+      </div>
+      <div style="margin-top:16px;max-width:196px">
+        <Picture id="67fb5613a9.jpeg" alt="A woman in a black dress standing in a vineyard" sizes="196px" />
+      </div>
+    </div>
+    <div class="copy">
+      <blockquote class="quote">
+        <p>“Just as Chef Nutcha has carefully selected the ingredients for her dishes, I was on a quest for wines that were aligned with the restaurant’s core philosophies, and using products from local, family-oriented estates committed to organic growing techniques, whenever possible."</p>
+      </blockquote>
+      <div class="prose">
+        <p>In our commitment to organic practices, we partner with <a href="https://phantomcreekestates.com/">Phantom Creek Estates</a>, a home to estate vineyards across two distinct benches in the Okanagan Valley. Uniquely influenced by geological forces millennia in the making, today these acclaimed, historic vineyards are each farmed according to meticulous organic and biodynamic techniques.</p>
+        <p>We are delighted to collaborate with <a href="https://www.summerhill.bc.ca/">Summerhill Pyramid Winery</a>, whose certified organic wines beautifully complement our menu. Their exquisite ice wine is a must-try.</p>
+        <p>Also partnering with <a href="https://littleenginewines.com/">Little Engine Winery</a> in Penticton BC, they embrace sustainable farming practices, focusing on low yields to deliver concentrated and ripe flavors in every glass. Their dedicated team tends to the vineyards throughout the year, ensuring that each crop is not only flavor-rich but also environmentally friendly, reducing the necessity for sprays. We value the exceptional taste that their conscientious farming can produce.</p>
+        <p><a class="btn" href={PDF_WINE}>Wine Menu<span class="visually-hidden"> (PDF)</span></a></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wide" style="padding-bottom:140px">
+    <div class="logos">
+      {row.map(([id, alt, logo]) => (
+        logo
+          ? <div class="logo-cell"><Picture id={id} alt={alt} fit="contain" sizes="(min-width: 768px) 25vw, 50vw" /></div>
+          : <div class="frame r-32"><Picture id={id} alt={alt} sizes="(min-width: 768px) 25vw, 50vw" /></div>
+      ))}
+    </div>
+  </section>
+</Base>

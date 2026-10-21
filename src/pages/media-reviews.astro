@@ -1,0 +1,85 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+
+const badges = [
+  ['bca3de97fd.png', "The World's 50 Best Restaurants, No. 12, North America's 50 Best Restaurants 2025", 'https://www.theworlds50best.com/northamerica/en/the-list/baan-lao.html'],
+  ['bcd3bb0df1.jpg', 'VITA magazine cover, Crowning Achievement', 'https://vitamagazine.com/2025/03/07/crowning-achievement-a-qa-with-chef-nutcha-phanthoupheng-on-her-royal-recognition/'],
+  ['add5f4781b.png', 'World Culinary Awards, Winner 2024', 'https://worldculinaryawards.com/award/canada-best-restaurant/2024'],
+  ['258a19f40c.png', 'Thai SELECT Signature', 'https://www.thaiselect.ca/restaurants-in-british-columbia'],
+  ['cf36a582b7.png', "Canada's 100 Best, Chef Nutcha Phanthoupheng, Baan Lao, #14", 'https://canadas100best.com/stories/chef-nutcha-phanthoupheng/'],
+  ['db2489e7bc.png', 'Jeune Professionnel Maître Rôtisseur, Chaîne des Rôtisseurs', 'https://newsonline.chainedesrotisseurs.com/index.php/story/3437/canada-nutcha-phanthoupheng.html'],
+  ['28c83c03ae.jpg', 'The Georgia Straight Golden Plates Awards 2020', 'https://www.straight.com/food/golden-plates-baan-lao-fine-thai-cuisine-bridges-two-beautiful-worlds'],
+  ['d896d9c637.jpg', 'The Georgia Straight Golden Plates Awards 2021', 'https://www.straight.com/food/golden-plates-2021-chef-nutcha-phanthoupheng-wows-diners-at-baan-lao-fine-thai-cuisine-in'],
+  ['17a704fdf5.jpg', 'The Georgia Straight Golden Plates Awards 2022', 'https://www.straight.com/food/golden-plates-2022-georgia-straight-celebrates-25-years-of-culinary-excellence'],
+];
+const desc = "Explore Baan Lao's prestigious recognitions, including Canada's Best Restaurant 2024 at the World Culinary Awards, Best Fine Dining in British Columbia, and Chef Nutcha Phanthoupheng's groundbreaking achievements in Thai cuisine.\u200b";
+---
+<Base title="Accolades" description={desc}>
+  <section class="bleed">
+    <div class="frame">
+      <Picture id="90d27e3fb9.webp" alt="The exterior of Baan Lao beside the water" priority sizes="100vw" />
+    </div>
+    <div class="scrim"></div>
+    <div class="t">
+      <p class="eyebrow">Press + Accolades</p>
+      <h1>ACCOLADES</h1>
+    </div>
+  </section>
+  <p class="small center" style="margin:28px var(--gutter) 0">Click or Tap Icons to View Full Story</p>
+  <div class="whiteband">
+    <div class="badges">
+      {badges.map(([id, alt, href]) => (
+        <a href={href}>
+          <Picture id={id} alt={alt} fit="contain" sizes="160px" />
+        </a>
+      ))}
+    </div>
+  </div>
+  <section class="wrap section">
+    <div class="defs">
+      <div>
+        <p><a href="https://www.theworlds50best.com/northamerica/en/the-list/baan-lao.html">#12 North America’s 50 Best Restaurants Best in West Canada / North America’s 50 Best Restaurants 2025</a></p>
+        <p><a href="https://canadas100best.com/award/baan-lao-best-destination-restaurant-2025/">#1 Best Destination Restaurant 2025</a> <a href="https://canadas100best.com/list/2025/baan-lao-2025/">#26 Canada’s Best Restaurants</a></p>
+        <p><a href="https://worldculinaryawards.com/award/canada-best-restaurant/2024">Canada's Best Restaurant 2024 /</a> <a href="https://worldculinaryawards.com/award/canada-best-restaurant/2024">World Culinary Awards </a></p>
+      </div>
+      <div>
+        <h2 class="as-h3">Canada's 100 Best Restaurants</h2>
+        <p>#79 Canada’s 100 Best Restaurants 2022 #14 Canada’s Best New Restaurants</p>
+      </div>
+      <div>
+        <h2 class="as-h3">Vancouver Golden Plates</h2>
+        <p>Best Restaurant Overall – 2021*2022*2023 Best Fine Dining – 2021*2022*2023</p>
+        <p>Best Hidden Gem – 2021*2022*2023 Best Thai – 2021*2022*2023 Most Romantic Restaurant – 2022*2023 Best Chef – Nutcha Phanthoupheng – 2021*2022*2023 Best New Restaurant – 2021</p>
+      </div>
+    </div>
+    <h2 style="margin:72px 0 8px"><a href="https://dailyhive.com/vancouver/baan-lao-richmond-best-in-canada">PRESS</a></h2>
+    <div class="press">
+      <a class="row" href="https://www.scmp.com/lifestyle/food-drink/article/3311951/4-asian-chefs-lighting-vancouver-thai-korean-and-hong-kong-flavours?module=perpetual_scroll&pgtype=article">
+        <span class="outlet">THE SOUTH CHINA MORNING POST</span>
+        <span class="title">4 Asian chefs lighting up Vancouver with Thai…</span>
+      </a>
+      <a class="row" href="https://macleans.ca/longforms/best-restaurants-in-canada/">
+        <span class="outlet">MACLEAN'S</span>
+        <span class="title">The Chef making Canada's most opulent Thai food. </span>
+      </a>
+      <a class="row" href="https://www.theglobeandmail.com/life/article-how-a-thai-restaurant-in-a-sleepy-bc-village-became-the-best/">
+        <span class="outlet">THE GLOBE AND MAIL</span>
+        <span class="title">How a Thai restaurant in a seaside B.C. village became the best restaurant in Canada.</span>
+      </a>
+      <a class="row" href="https://vitamagazine.com/2025/03/07/crowning-achievement-a-qa-with-chef-nutcha-phanthoupheng-on-her-royal-recognition/">
+        <span class="outlet">VITA</span>
+        <span class="title">Crowning Achievement: A Q&amp;A With Chef Nutcha Phanthoupheng On Her Royal Recognition</span>
+      </a>
+      <a class="row" href="https://www.foodandwine.com/steveston-british-columbia-seafood-8782616">
+        <span class="outlet">FOOD &amp; WINE</span>
+        <span class="title">This Charming Fishing Village Has the Best Seafood on Canada’s West Coast</span>
+      </a>
+      <a class="row" href="https://www.vanmag.com/taste/restaurants/baan-lao-thai-high-tea/">
+        <span class="outlet">VANCOUVER MAGAZINE</span>
+        <span class="title">No Crustless Sandwiches Here: A Fresh Take on High Tea</span>
+      </a>
+    </div>
+    <h3 style="margin-top:48px;font-size:clamp(22px, .8rem + 1vw, 28px)">First Thai Chef in Canada to be named Maître Rôtisseur with La Chaîne des Rôtisseurs</h3>
+  </section>
+</Base>

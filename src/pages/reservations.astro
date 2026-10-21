@@ -1,0 +1,79 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+import { PDF_DINNER } from '../data/links.js';
+
+const gallery = [
+  ['85293a4339.jpg', 'A plated dish on a dark ceramic plate'],
+  ['21033934e3.jpg', 'A close view of a plated dish'],
+  ['0e5b7039db.jpeg', 'A tall portrait of a plated dish'],
+  ['b18a5816c9.jpg', 'A portrait of food arranged on a plate'],
+  ['74aaed478e.jpg', 'A portrait of a plated dish with garnish'],
+  ['f84e6c463b.jpeg', 'A wide plate of food on a dark table'],
+  ['9774088546.jpeg', 'A plated dish photographed from above'],
+  ['f08d570c2d.jpeg', 'A garnished bite on black rice'],
+  ['e2488ee7ae.jpeg', 'A portrait of a plated course'],
+  ['0f9c51e960.jpeg', 'A wide view of a plated dish'],
+  ['7d8278ccd5.jpg', 'A portrait of a finished plate'],
+];
+---
+<Base
+  title="Menu"
+  description={'Embark on a culinary journey through Thailand\'s four regions with Chef Nutcha\'s "From Thailand With Love" tasting menu. Experience rare, organic ingredients served on handcrafted Thai ceramics, complemented by curated beverage pairings.'}
+>
+  <section class="wrap ph-hero">
+    <div class="t">
+      <p class="eyebrow">From Thailand With Love</p>
+      <h1>A culinary journey around the four corners of the Kingdom of Thailand.</h1>
+    </div>
+    <div class="im">
+      <div class="frame r-34">
+        <Picture id="4c4d8ec029.webp" alt="A plated dish in a pastry cup set on black rice" priority sizes="(min-width: 768px) 50vw, 100vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap split">
+    <div class="copy prose">
+      <p>Chef Nutcha’s new menu, her most personal yet, takes you on a culinary journey around the four corners of the Kingdom of Thailand. Each dish, made with rare and unique ingredients, celebrates her cherished memories of home and the foods she most enjoys eating.</p>
+      <p>Served on custom, hand- hewn pottery and dinnerware fashioned by Thai artisans, the menu is offered with a choice of beverage pairings: wine, cocktail, mocktail, gong fu cha tea, caffeine-free tea, sake or the Baan Lao combination.</p>
+      <p><a class="btn" href={PDF_DINNER}>From Thailand with Love Menu<span class="visually-hidden"> (PDF)</span></a></p>
+      <div class="ornament">
+        <Picture id="20f2da0da1.jpeg" alt="A small ink drawing of menu notes" sizes="320px" />
+      </div>
+    </div>
+    <div class="im">
+      <div class="frame r-45">
+        <Picture id="d9b36aec83.jpg" alt="A plated dish on handcrafted pottery" sizes="(min-width: 768px) 42vw, 82vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap section">
+    <div class="acc-stack">
+      <details class="acc">
+        <summary>Food Allergies &amp; Restrictions</summary>
+        <div class="acc-body">
+          <p>At Baan Lao. we wish our guests to enjoy the exquisite flavours Chef Nutcha has carefully created for each Baan Lao Fine Dining Experience. Alterations to the menu may compromise the taste and integrity of our Baan Lao dining experience. As such, we strive to make the fewest changes possible to each delicious dish.</p>
+          <p>NOTE: We are able to remove the shellfish from our dishes, for guests who prefer no shellfish. However, a number of our home-made sauces contain shrimp paste. We are unable to safely accommodate guests with a severe shellfish allergy.</p>
+          <p>Given the complexity and diversity of our menu, we cannot guarantee our supply chain, kitchen and preparation areas remain nut or shellfish free. As such, we have made the difficult decision that we are unable to accommodate guests where cross-contamination may trigger a reaction.</p>
+          <p>Guests requesting minor adjustments to accommodate food sensitivities may submit their request via the pre-visit questions you will receive upon completing your reservation. All requests must be made at least 5 days in advance of your dining experience. If we are unable to accommodate your request, our reservation concierge will contact you. Thank you for your understanding.</p>
+        </div>
+      </details>
+      <details class="acc">
+        <summary>Cancellation Policy</summary>
+        <div class="acc-body">
+          <p>Dining at Baan Lao is more than just a dinner – it truly is an experience! As with other experiences like tickets to a show or concert, our reservations are non-refundable. It will be our pleasure to reschedule your visit to Baan Lao if you would please provide us with five days advance notice prior to your visit. To request to reschedule your visit, please email reservations@baanlao.ca.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <div class="wide" style="padding-bottom:120px">
+    <div class="masonry">
+      {gallery.map(([id, alt]) => (
+        <Picture id={id} alt={alt} sizes="(min-width: 1024px) 33vw, 50vw" />
+      ))}
+    </div>
+  </div>
+</Base>

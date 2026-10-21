@@ -1,0 +1,56 @@
+---
+import Base from '../layouts/Base.astro';
+import Picture from '../components/Picture.astro';
+import { PDF_TEA } from '../data/links.js';
+const zw = 'Indulge in Baan Lao\'s Afternoon Thai Tea Experience—an innovative fusion of Thai cuisine and Gong Fu Cha tea rituals. Enjoy 12 handcrafted dishes paired with five estate teas, guided by a certified tea sommelier.\u200b';
+---
+<Base title="Afternoon Tea" description={zw}>
+  <section class="wrap ph-hero">
+    <div class="t">
+      <p class="eyebrow">Available Saturday and Sunday Afternoons</p>
+      <h1>The World’s First Sommelier-led Afternoon Tea Thai Experience</h1>
+    </div>
+    <div class="im">
+      <div class="frame r-45">
+        <Picture id="f3aa707814.webp" alt="Tea being poured from a black kettle into a glass pitcher" priority sizes="(min-width: 768px) 50vw, 100vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap split even">
+    <div class="copy prose">
+      <p>Baan Lao Fine Thai Cuisine proudly presents the world’s first Afternoon Tea Thai Experience, an exquisite culinary innovation inspired by the time-honoured traditions of Chinese dim sum, British afternoon tea and Royal Thai cuisine.</p>
+      <p>Guided by a certified TAC (Tea Association of Canada) tea sommelier, the sensory journey features 12 meticulously crafted dishes served in three courses, thoughtfully paired with five distinct teas from across Asia.</p>
+      <p><a class="btn" href={PDF_TEA}>Afternoon Thai Tea Menu<span class="visually-hidden"> (PDF)</span></a></p>
+      <details class="acc">
+        <summary class="as-link">Learn more</summary>
+        <div class="acc-body">
+          <p>Guests may choose between caffeinated gong fu cha or caffeine-free tea pairings, with regular, premium and ultimate options. The set menu is offered Saturdays and Sundays at 12:30 pm in Baan Lao’s serene waterfront dining room overlooking the lush banks of the Fraser River (100 Bayview St., Richmond, BC).Executive chef-proprietor Nutcha Phanthoupheng spent six months researching and perfecting this signature experience, which launched in May 2024.</p>
+          <p>“Living in Richmond, my family and I often go out for dim sum and I have tried the English style afternoon tea,” she explains. “I realized that when the customer chooses the tea, it’s not always the best match for the food. I wanted to create something more intentional, with a variety of tea pairings that are carefully selected to enhance the flavours in every bite.”</p>
+          <p>Opening with a palate-activating lemongrass elixir, the three-course menu—Arun (Dawn), Athit (Sun), and Bulan (Moon)—is designed to stimulate the full Thai taste spectrum (sweet, salty, sour, spicy and savoury) with dainty, harmoniously balanced dishes such as wild sockeye salmon salad in golden pastry, water buffalo money bags and deep-fried taro balls with pandan-coconut custard.</p>
+          <p>As much a feast for the eyes as for the palate, each fragrant tea is served in a different cup-and-saucer set, while the intricately fashioned canapés are presented on bamboo baskets and wooden trays handcrafted by Thai artisans.Leading the tea tour is sommelier Lena Pan, who expertly guides guests through the art of fine tea pairing and traditional gong fu brewing methods. Baan Lao takes pride in being the only restaurant in Canada with a TAC-certified tea sommelier on site.</p>
+          <p>More than just a meal, Baan Lao’s Afternoon Thai Tea is a transporting cultural immersion and a memory in the making. Guests are warmly invited to Baan Lao— “our home”—to experience this one-of-a-kind offering.</p>
+        </div>
+      </details>
+    </div>
+    <div class="im">
+      <div class="frame r-45">
+        <Picture id="b56a7fd644.jpg" alt="A table set for afternoon tea" sizes="(min-width: 768px) 50vw, 82vw" />
+      </div>
+    </div>
+  </section>
+
+  <section class="wide" style="padding-bottom:120px">
+    <div class="grid3 gap-tight tea-row">
+      <div class="frame r-32"><Picture id="4066a040f0.jpg" alt="Teacups and a teapot on a wooden table" sizes="(min-width: 1024px) 33vw, 50vw" /></div>
+      <div class="frame r-32"><Picture id="2213c8d3b7.jpg" alt="Small dishes arranged for afternoon tea" sizes="(min-width: 1024px) 33vw, 50vw" /></div>
+      <div class="frame r-32 cap-img"><Picture id="943c464dc7.jpg" alt="A close view of a tea pairing" sizes="480px" /></div>
+    </div>
+    <div class="grid4 gap-tight tea-row" style="margin-top:12px">
+      <div class="frame r-34 cap-img"><Picture id="e428799501.jpg" alt="A portrait of a tea service" sizes="240px" /></div>
+      <div class="frame r-34 cap-img"><Picture id="ed5c83b7cb.jpg" alt="A portrait of tea being served" sizes="240px" /></div>
+      <div class="frame r-34 cap-img"><Picture id="6823477816.jpg" alt="A portrait of cups on a tray" sizes="240px" /></div>
+      <div class="frame r-34"><Picture id="7622560c86.jpg" alt="A portrait of an afternoon tea course" sizes="(min-width: 1024px) 25vw, 50vw" /></div>
+    </div>
+  </section>
+</Base>
