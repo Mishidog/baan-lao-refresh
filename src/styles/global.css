@@ -384,8 +384,15 @@ html.nav-open, html.nav-open body { overflow: hidden; }
 .cookie[hidden] { display: none; }
 .cookie p { margin: 0; font-size: 14px; line-height: 1.5; }
 @media (max-width: 767px) {
-  .cookie { flex-direction: column; align-items: stretch; max-height: 120px; }
-  .cookie .btn { width: 100%; }
+  .cookie {
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    padding: 16px;
+    max-height: none;
+  }
+  .cookie p { font-size: 13px; line-height: 1.35; }
+  .cookie .btn { width: auto; flex: none; min-height: 44px; padding: 0 14px; }
 }
 
 .pic, .pic img { display: block; width: 100%; height: auto; }
@@ -790,11 +797,12 @@ details.acc[open] summary.as-link::after { content: ""; }
   .hero { height: auto; min-height: 0; max-height: none; }
   .hero .frame { position: relative; height: 78vh; min-height: 520px; }
   .hero .scrim { position: absolute; }
-  .hero-c { left: 24px; right: 24px; bottom: 168px; }
+  .hero-c { left: 24px; right: 24px; bottom: 192px; }
   .hero h1 { font-size: 46px; }
   .hero .sub { font-size: 11px; margin: 16px 0 24px; }
   .hero .btn { width: 100%; }
-  .marks { left: 24px; right: auto; bottom: 28px; align-items: flex-start; text-align: left; max-width: none; gap: 8px; }
+  .marks { left: 24px; right: auto; bottom: 28px; align-items: flex-start; text-align: left; max-width: calc(100% - 48px); gap: 8px; }
+  .marks a { background: rgba(36, 29, 16, .75); padding: 12px 8px; }
   .marks .rule { display: none; }
   .offer { padding: 96px 0 64px; }
   .offer .eyebrow { margin-bottom: 32px; }
