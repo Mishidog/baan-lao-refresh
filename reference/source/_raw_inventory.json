@@ -1,0 +1,1548 @@
+{
+ "/": {
+  "title": "Baan Lao Website",
+  "desc": "Recognized as Canada's Best Restaurant in 2024 by the World Culinary Awards, Baan Lao combines authentic Royal Thai flavors with modern culinary artistry in an intimate waterfront setting.",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594612892"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Cormorant SC\", \"Cormorant SC Placeholder\", serif",
+   "\"Proxima Nova Regular\", \"Proxima Nova Regular Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif",
+   "Inter, system-ui, -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif, \"Apple Color Emoji\", \"Segoe UI Emoji\", \"Segoe UI Symbol\""
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(54, 44, 24)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(235, 158, 16)",
+   "rgb(228, 230, 241)",
+   "rgb(157, 150, 142)",
+   "rgba(255, 255, 255, 0.4)",
+   "rgb(9, 117, 224)",
+   "rgb(17, 17, 17)",
+   "rgb(46, 41, 41)",
+   "rgb(51, 51, 51)",
+   "rgb(68, 68, 68)",
+   "rgb(238, 238, 238)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/reservations": {
+  "title": "Menu",
+  "desc": "Embark on a culinary journey through Thailand's four regions with Chef Nutcha's \"From Thailand With Love\" tasting menu. Experience rare, organic ingredients served on handcrafted Thai ceramics, complemented by curated beverage pairings.",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594622854"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://static.hotjar.com/c/hotjar-6387693.js?sv=6",
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Montserrat, \"Montserrat Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(17, 17, 17)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(235, 158, 16)",
+   "rgb(9, 117, 224)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/afternoon-thai-tea-experience": {
+  "title": "Afternoon Tea",
+  "desc": "Indulge in Baan Lao's Afternoon Thai Tea Experience\u2014an innovative fusion of Thai cuisine and Gong Fu Cha tea rituals. Enjoy 12 handcrafted dishes paired with five estate teas, guided by a certified tea sommelier.\u200b",
+  "iframes": [
+   "",
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594634657"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://static.hotjar.com/c/hotjar-6387693.js?sv=6",
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgb(17, 17, 17)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(235, 158, 16)",
+   "rgb(9, 117, 224)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/team": {
+  "title": "Team",
+  "desc": "Recognized as Canada's Best Restaurant in 2024 by the World Culinary Awards, Baan Lao combines authentic Royal Thai flavors with modern culinary artistry in an intimate waterfront setting.",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594642590"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(228, 230, 241)",
+   "rgb(157, 150, 142)",
+   "rgba(255, 255, 255, 0.4)",
+   "rgb(255, 252, 252)",
+   "rgb(9, 117, 224)",
+   "rgb(17, 17, 17)",
+   "rgb(235, 158, 16)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/chef-nutcha": {
+  "title": "Chef Nutcha",
+  "desc": "Discover Chef Nutcha Phanthoupheng's journey from Isaan, Thailand, to becoming Canada's first Thai Ma\u00eetre R\u00f4tisseur. With training from Michelin-starred chefs and a commitment to farm-to-table dining, she elevates Royal Thai cuisine at Baan Lao.",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594660789"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(228, 230, 241)",
+   "rgb(157, 150, 142)",
+   "rgba(255, 255, 255, 0.4)",
+   "rgb(255, 252, 252)",
+   "rgba(0, 0, 0, 0.05)",
+   "rgb(9, 117, 224)",
+   "rgb(17, 17, 17)",
+   "rgb(235, 158, 16)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/farm-to-table": {
+  "title": "Farm to Table",
+  "desc": "Experience Baan Lao's commitment to sustainability with ethically sourced ingredients from local farms and Chef Nutcha's organic rice farm in Thailand. Enjoy dishes crafted with care, ensuring freshness and quality from farm to table.\u200b",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594674056"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(9, 117, 224)",
+   "rgb(51, 51, 51)",
+   "rgb(255, 252, 252)",
+   "rgba(0, 0, 0, 0.05)",
+   "rgb(17, 17, 17)",
+   "rgb(235, 158, 16)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/media-reviews": {
+  "title": "Accolades",
+  "desc": "Explore Baan Lao's prestigious recognitions, including Canada's Best Restaurant 2024 at the World Culinary Awards, Best Fine Dining in British Columbia, and Chef Nutcha Phanthoupheng's groundbreaking achievements in Thai cuisine.\u200b",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594683886"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(235, 158, 16)",
+   "rgb(71, 71, 71)",
+   "rgb(9, 117, 224)",
+   "rgb(255, 252, 252)",
+   "rgba(0, 0, 0, 0.05)",
+   "rgb(17, 17, 17)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/shop": {
+  "title": "Shop",
+  "desc": "Recognized as Canada's Best Restaurant in 2024 by the World Culinary Awards, Baan Lao combines authentic Royal Thai flavors with modern culinary artistry in an intimate waterfront setting.",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594696896"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(9, 117, 224)",
+   "rgb(255, 252, 252)",
+   "rgba(0, 0, 0, 0.05)",
+   "rgb(17, 17, 17)",
+   "rgb(235, 158, 16)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/wine-menu": {
+  "title": "Wine",
+  "desc": "Explore Baan Lao's curated wine selection, featuring organic and biodynamic wines from local estates like Summerhill, Little Engine, and Phantom Creek. Each bottle is chosen to complement Chef Nutcha's Royal Thai cuisine, enhancing your dining experience.",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594703883"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "\"Proxima Nova ExtraBold\", \"Proxima Nova ExtraBold Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(228, 230, 241)",
+   "rgb(157, 150, 142)",
+   "rgba(255, 255, 255, 0.4)",
+   "rgb(9, 117, 224)",
+   "rgb(235, 158, 16)",
+   "rgb(255, 252, 252)",
+   "rgba(0, 0, 0, 0.05)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/royal-thai-cuisine": {
+  "title": "Royal Thai Cuisine",
+  "desc": "Experience the pinnacle of Thai culinary artistry at Baan Lao, where Chef Nutcha Phanthoupheng brings Royal Thai Cuisine to North America. Indulge in meticulously crafted dishes using organic ingredients, adhering to centuries-old traditions.\u200b",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594710767"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(9, 117, 224)",
+   "rgb(255, 252, 252)",
+   "rgba(0, 0, 0, 0.05)",
+   "rgb(17, 17, 17)",
+   "rgb(235, 158, 16)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/faqs": {
+  "title": "FAQ",
+  "desc": "Find answers to common questions about dining at Baan Lao, including dress code, dietary accommodations, corkage fees, and reservation policies. Ensure a seamless and enjoyable experience at our Royal Thai cuisine restaurant in Steveston, BC.\u200b",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594719186"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgb(9, 117, 224)",
+   "rgb(255, 252, 252)",
+   "rgba(0, 0, 0, 0.05)",
+   "rgb(17, 17, 17)",
+   "rgb(235, 158, 16)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/menus": {
+  "title": "FAQ",
+  "desc": "Find answers to common questions about dining at Baan Lao, including dress code, dietary accommodations, corkage fees, and reservation policies. Ensure a seamless and enjoyable experience at our Royal Thai cuisine restaurant in Steveston, BC.\u200b",
+  "iframes": [
+   "",
+   "",
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594736655"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif",
+   "\"Proxima Nova Light\", \"Proxima Nova Light Placeholder\", sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgba(0, 0, 0, 0.08)",
+   "rgba(0, 0, 0, 0.2)",
+   "rgb(235, 158, 16)",
+   "rgb(255, 252, 252)",
+   "rgba(0, 0, 0, 0.05)",
+   "rgb(17, 17, 17)",
+   "rgb(9, 117, 224)",
+   "rgb(46, 41, 41)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ],
+   [
+    "Chef Nutcha",
+    "./chef-nutcha"
+   ],
+   [
+    "Shop",
+    "./shop"
+   ],
+   [
+    "FAQ",
+    "./faqs"
+   ],
+   [
+    "Home",
+    "./"
+   ],
+   [
+    "Farm to Table",
+    "./farm-to-table"
+   ],
+   [
+    "Menus",
+    "./menus"
+   ],
+   [
+    "Team",
+    "./team"
+   ],
+   [
+    "Royal Thai Cuisine",
+    "./royal-thai-cuisine"
+   ],
+   [
+    "Press + Accolades",
+    "./media-reviews"
+   ],
+   [
+    "\u25cf 4100 Bayview Street, Richmond, BC",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "https://www.google.com/maps/place/Baan+Lao+Fine+Thai+Cuisine/@49.1231099,-123.1812939,17.02z/data=!4m6!3m5!1s0x5485e1fc5201e74b:0x4ddcf22b084f3d3b!8m2!3d49.1230638!4d-123.17862!16s%2Fg%2F11j__ssdqc?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D"
+   ],
+   [
+    "",
+    "tel:7788395711"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.facebook.com/BaanLaoSteveston"
+   ],
+   [
+    "",
+    "https://www.instagram.com/baanlaosteveston/"
+   ]
+  ]
+ },
+ "/gift-card": {
+  "title": "Baan Lao Website",
+  "desc": "Recognized as Canada's Best Restaurant in 2024 by the World Culinary Awards, Baan Lao combines authentic Royal Thai flavors with modern culinary artistry in an intimate waterfront setting.",
+  "iframes": [
+   "",
+   "https://framer.com/edit?framerSiteId=5de9a1e67e65b1adb206c2378dd12d850fb83df5ac753689f13765df3877061a&source=baanlao.ca&features=%7B%22editorBarDisableFrameAncestorsSecurity%22%3Afalse%2C%22onPageLocalizationSupport%22%3Atrue%2C%22onPageMoveTool%22%3Atrue%2C%22onPageRichTextBlockSelection%22%3Atrue%7D&loadStart=1792594744196"
+  ],
+  "forms": [],
+  "scripts": [
+   "https://events.framer.com/script?v=2",
+   "https://framerusercontent.com/sites/4VVF6pQSF4plJ1fs53oUCh/script_main.Dx_o0nOn.mjs"
+  ],
+  "fonts": [
+   "sans-serif",
+   "Inter, \"Inter Placeholder\", sans-serif",
+   "\"Proxima Nova Bold\", \"Proxima Nova Bold Placeholder\", sans-serif"
+  ],
+  "colors": [
+   "rgb(0, 0, 0)",
+   "rgba(0, 0, 0, 0)",
+   "rgb(255, 255, 255)",
+   "rgb(0, 0, 238)",
+   "rgb(155, 161, 165)",
+   "rgb(220, 184, 77)",
+   "rgb(17, 17, 17)",
+   "rgba(0, 0, 0, 0.08)"
+  ],
+  "nav": [
+   [
+    "",
+    "./"
+   ],
+   [
+    "From Thailand With Love",
+    "./reservations"
+   ],
+   [
+    "Afternoon Tea Experience",
+    "./afternoon-thai-tea-experience"
+   ],
+   [
+    "Reserve Your Table",
+    "https://www.opentable.ca/r/baan-lao-fine-thai-cuisine-reservations-richmond?restref=1174369&lang=en-CA&ot_source=Restaurant%20website"
+   ],
+   [
+    "Gift Card",
+    "./gift-card"
+   ]
+  ]
+ },
+ "_hosts": [
+  "api.framer.com",
+  "app.framerstatic.com",
+  "baanlao.ca",
+  "browser.sentry-cdn.com",
+  "cdn-images.mailchimp.com",
+  "cdn.giftup.app",
+  "cdn.yourgift.cards",
+  "cdnjs.cloudflare.com",
+  "challenges.cloudflare.com",
+  "events.framer.com",
+  "fonts.gstatic.com",
+  "framer.com",
+  "framerusercontent.com",
+  "js.sentry-cdn.com",
+  "js.stripe.com",
+  "m.stripe.com",
+  "m.stripe.network",
+  "process.yourgift.cards",
+  "s3.amazonaws.com",
+  "static.elfsight.com",
+  "static.hotjar.com"
+ ]
+}

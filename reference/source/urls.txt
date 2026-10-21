@@ -1,0 +1,13 @@
+/
+/reservations
+/afternoon-thai-tea-experience
+/team
+/chef-nutcha
+/farm-to-table
+/media-reviews
+/shop
+/wine-menu
+/royal-thai-cuisine
+/faqs
+/menus
+/gift-card
